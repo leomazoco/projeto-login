@@ -16,7 +16,7 @@ Lilás: #5f2c82
 }
 
 body, html{
-    background-color: #5f2c82;
+    background-color: #589fa8c4;
     height: 100vh;
     width: 100vw;
 }
@@ -40,11 +40,14 @@ section#login{
     border-radius: 20px;
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/padrao.jpg) no-repeat;
+    background: #589fa8c4 url(../imagens/padrao.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
