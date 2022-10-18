@@ -98,11 +98,11 @@ div.campo > i {
 div.campo > input {
     font-size: 1em;
     width: calc(100% - 45px);
-    height: 99%;
+    height: 95%;
     border: none;
     border-radius: 5px;
     padding: 4px;
-    transform: translateY(-10.6px);
+    transform: translateY(-10.2px);
 }
 
 form > input[type=submit] {
